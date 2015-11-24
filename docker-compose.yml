@@ -1,0 +1,6 @@
+api_page_profile:
+    build: ./
+    ports:
+        - "8001:8000"
+    volumes:
+        - ./app:/app:rw
